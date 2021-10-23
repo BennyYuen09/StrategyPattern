@@ -16,6 +16,6 @@ public class CreditCardStrategy implements PaymentStrategy {
         /*
         Doing the payment using card number, name and cvv
          */
-        System.out.println("Pay $" + totalPrice + "using credit card.");
+        System.out.println("Pay $" + totalPrice + " using credit card.");
     }
 }
