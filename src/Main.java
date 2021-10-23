@@ -1,3 +1,6 @@
+import Strategy.CreditCardStrategy;
+import Strategy.PayPalStrategy;
+
 public class Main {
     public static void main(String[] args) {
         //a shopping cart

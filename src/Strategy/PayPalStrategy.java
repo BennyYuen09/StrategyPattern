@@ -1,3 +1,5 @@
+package Strategy;
+
 public class PayPalStrategy implements PaymentStrategy {
     private String emailAddress;
     private String password;

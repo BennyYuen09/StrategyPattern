@@ -1,3 +1,5 @@
+package Strategy;
+
 public class CreditCardStrategy implements PaymentStrategy {
     private final String cardNumber;
     private final String name;
