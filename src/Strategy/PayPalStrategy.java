@@ -1,8 +1,8 @@
 package Strategy;
 
 public class PayPalStrategy implements PaymentStrategy {
-    private String emailAddress;
-    private String password;
+    private final String emailAddress;
+    private final String password;
 
     public PayPalStrategy(String emailAddress, String password) {
         this.emailAddress = emailAddress;
@@ -14,6 +14,10 @@ public class PayPalStrategy implements PaymentStrategy {
         /*
         Doing the payment using email, and password
          */
-        System.out.println("Pay $" + totalPrice + " using PayPal.");
+        System.out.printf(
+                "Pay %f using PayPal provided with email address: %s and password: %s%n",
+                totalPrice,
+                emailAddress,
+                password);
     }
 }
