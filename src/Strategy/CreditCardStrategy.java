@@ -17,7 +17,7 @@ public class CreditCardStrategy implements PaymentStrategy {
         Doing the payment using card number, name and cvv
          */
         System.out.printf(
-                "Pay %f using PayPal provided with cardNumber: %s, name: %s and cvv: %s%n",
+                "Pay $%.2f using credit card provided with cardNumber: %s, name: %s and cvv: %s%n",
                 totalPrice,
                 cardNumber,
                 name,

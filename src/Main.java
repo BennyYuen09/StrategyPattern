@@ -15,10 +15,7 @@ public class Main {
         CreditCardStrategy creditCard = new CreditCardStrategy("1234-5678-9012-3456", "xxx", "120");
         PayPalStrategy payPal = new PayPalStrategy("xxx@email.com", "P@ssw0rd");
 
-        //using credit card to pay
+        //using above payment strategy to pay
         shoppingCart.pay(creditCard);
-
-        //using PayPal to pay
-        shoppingCart.pay(payPal);
     }
 }
